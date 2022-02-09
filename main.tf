@@ -13,7 +13,6 @@ terraform {
 
   backend "remote" {
     organization = "own-project"
-
     workspaces {
       name = "terraform-demo"
     }
