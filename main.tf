@@ -14,7 +14,7 @@ terraform {
   backend "remote" {
     organization = "own-project"
     workspaces {
-      prefix = "terraform-demo"
+      name = "terraform-demo"
     }
   }
 }
