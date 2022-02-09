@@ -15,7 +15,7 @@ terraform {
     organization = "own-project"
 
     workspaces {
-      name = "terraform-demo
+      name = "terraform-demo"
     }
   }
 }
