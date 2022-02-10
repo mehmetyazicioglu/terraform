@@ -3,7 +3,7 @@
 
 # Import common-functions/tfstate-functions/tfstate-functions.sentinel
 # with alias "state"
-import "tfstate-functions" as stat
+import "tfstate-functions" as state
 
 
 # Allowed EC2 Instance Types
